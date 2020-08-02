@@ -39,4 +39,11 @@ public class SecondController {
     public double getbmi(){
         return bmiCal.getBmi(120.2,6);
     }
+	
+	@GetMapping("/b2")
+    public double getbmi2(){
+        return bmiCal.getBmi(120.2,6);
+    }
+	
+	
 }
